@@ -1,0 +1,11 @@
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmAdmin.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmAlumno.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmLogin.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmMaterias.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmProfesores.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.Properties.Resources.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmLogin.es-AR.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache

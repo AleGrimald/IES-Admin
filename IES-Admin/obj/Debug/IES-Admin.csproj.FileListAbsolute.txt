@@ -1,0 +1,39 @@
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\bin\Debug\IES-Admin.exe.config
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\bin\Debug\IES-Admin.exe
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\bin\Debug\IES-Admin.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.frmLogin.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.Properties.Resources.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.GenerateResource.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.CoreCompileInputs.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.exe
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\bin\Debug\es-AR\IES-Admin.resources.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.frmLogin.es-AR.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\es-AR\IES-Admin.resources.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.formAdmin.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\IES-Admin.exe.config
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\IES-Admin.exe
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\IES-Admin.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\es-AR\IES-Admin.resources.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.formAdmin.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.frmLogin.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.Properties.Resources.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.frmLogin.es-AR.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.GenerateResource.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.CoreCompileInputs.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\es-AR\IES-Admin.resources.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.exe
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.formAlumno.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.formMaterias.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES_Admin.formProfesores.resources
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\System.Buffers.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\IES-Admin.csproj.CopyComplete
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\System.Memory.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\bin\Debug\System.Numerics.Vectors.dll

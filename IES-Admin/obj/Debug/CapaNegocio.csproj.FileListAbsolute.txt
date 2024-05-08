@@ -1,0 +1,2 @@
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\IES-Admin\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache

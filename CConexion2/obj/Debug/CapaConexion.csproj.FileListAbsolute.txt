@@ -1,0 +1,11 @@
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\CConexion2.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\CConexion2.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\System.Memory.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\System.Buffers.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaConexion.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaConexion.csproj.CopyComplete
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CConexion2.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CConexion2.pdb

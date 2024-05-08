@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Final Programacion 2\\IES-Admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{127772A9-8C31-4813-8F8A-C45417AB1C75}|CapaPresentacion.csproj|c:\\users\\user\\desktop\\final programacion 2\\ies-admin\\frmprofesores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{127772A9-8C31-4813-8F8A-C45417AB1C75}|CapaPresentacion.csproj|solutionrelative:frmprofesores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{127772A9-8C31-4813-8F8A-C45417AB1C75}|CapaPresentacion.csproj|c:\\users\\user\\desktop\\final programacion 2\\ies-admin\\frmprofesores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{127772A9-8C31-4813-8F8A-C45417AB1C75}|CapaPresentacion.csproj|solutionrelative:frmprofesores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmProfesores.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final Programacion 2\\IES-Admin\\frmProfesores.cs",
+              "RelativeDocumentMoniker": "frmProfesores.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final Programacion 2\\IES-Admin\\frmProfesores.cs",
+              "RelativeToolTip": "frmProfesores.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAIwH4AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T23:55:05.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmProfesores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final Programacion 2\\IES-Admin\\frmProfesores.cs",
+              "RelativeDocumentMoniker": "frmProfesores.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final Programacion 2\\IES-Admin\\frmProfesores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmProfesores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T23:55:01.411Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
