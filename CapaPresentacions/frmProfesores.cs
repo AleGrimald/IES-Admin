@@ -8,16 +8,75 @@ namespace IES_Admin
 {
     public partial class frmProfesores : Form
     {
-        Alumno datosAlumno = new Alumno();
-        
+          
         public frmProfesores()
         {
             InitializeComponent();
+            ListarProfesor();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            Profesores nuevoProfesor = new Profesores("SELECT idprofesores FROM profesores");
+            CheckBox[] modulos = { chk1, chk2, chk3, chk4, chk5, chk6, chk7 };
+            int id;
+            string nombre = txtNombre.Text;
+            string dni = txtDni.Text;
+            string direcc = txtDireccion.Text;
+            string telefono = txtTelefono.Text;
+            string matricula = txtMatricula.Text;
+            string modulosTexto = "";
+            string materia;
+            string anio;
+            string procedimiento = "AgregarProfesor";
+            string[] parametro = { 
+                "_id", "_nombre", "_dni", "_direccion", "_telefono", "_matricula", "_modulo","_materia","_anio" 
+            };
 
+            if (dgvAlumnos.Rows.Count <= 0)
+            {
+                id = 1;
+            }
+            else
+            {
+                id = int.Parse(dgvAlumnos.Rows[nuevoProfesor.IdPersona()].Cells["Id"].Value.ToString()) + 1;
+                
+            }
+
+            if (rdbPrimero.Checked)
+            {
+                anio = rdbPrimero.Text;
+            }
+            else if (rdbSegundo.Checked)
+            {
+                anio = rdbSegundo.Text;
+            }
+            else
+            {
+                anio = rdbTercero.Text;
+            }
+
+            if (cmbMateria.SelectedItem != null)
+            {
+                materia = cmbMateria.SelectedItem.ToString();
+            }
+            else
+            {
+                materia = "Sin Especificar";
+            }
+
+            for (int i = 0; i < modulos.Length; i++)
+            {
+                if (modulos[i].Checked)
+                {
+                    modulosTexto += modulos[i].Text + " ";
+                }
+            }
+
+            Profesores objProfesor = new Profesores(id,nombre,dni,direcc,telefono,matricula,modulosTexto,materia,anio,procedimiento,parametro);
+            objProfesor.AgregarProfesor();
+
+            ListarProfesor();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -27,12 +86,39 @@ namespace IES_Admin
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                string parametro = "_idprofesor";
+                string procedimiento = "EliminarProfesor";
+                Profesores indiceProfesor = new Profesores("SELECT idprofesores FROM profesores");
+                int id = int.Parse(dgvAlumnos.Rows[indiceProfesor.IdPersona()].Cells["Id"].Value.ToString());
+                indiceProfesor = new Profesores(id, parametro, procedimiento);
+                indiceProfesor.EliminarPersona();
 
+                MessageBox.Show(
+                    "Se elimino un alumno con exito!!",
+                    "Sistema de Gestion Alumnos",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                    );
+
+                ListarProfesor();
+                LimpiarCampos();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                setBotones(false);
+            }
         }
 
         private void btnListar_Click(object sender, EventArgs e)
         {
-            ListarAlumnos();
+            ListarProfesor();
         }
 
         private void LimpiarCampos()
@@ -56,17 +142,17 @@ namespace IES_Admin
 
         }
 
-        private void ListarAlumnos()
+        private void ListarProfesor()
         {
-            Alumno datosAlumno = new Alumno();
-
-            dgvAlumnos.DataSource = datosAlumno.MostrarAlumno("MostrarProfesores");
+            string procedimiento = "MostrarProfesores";
+            Profesores datosProfesor = new Profesores(procedimiento);
+            dgvAlumnos.DataSource = datosProfesor.Mostrar4Datos();
             ModelarTabla();
         }
 
         public void ModelarTabla()
         {
-            int[] columnasAncho = { 180, 180, 100};
+            int[] columnasAncho = {30, 170, 170, 85};
 
             dgvAlumnos.AlternatingRowsDefaultCellStyle.BackColor = Color.SteelBlue;
             dgvAlumnos.AlternatingRowsDefaultCellStyle.ForeColor = Color.White;
@@ -118,10 +204,11 @@ namespace IES_Admin
 
         private void dgvAlumnos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-
-            //Hacer dinamico el id del profesor, traerlo desde la tabla
-            Profesores objProfesor = new Profesores(2);
-            MySqlDataReader reader = objProfesor.MostrarDatosProfesor();
+            int idProf = int.Parse(dgvAlumnos.Rows[e.RowIndex].Cells["Id"].Value.ToString());
+            string parametro = "_id";
+            string procedimiento = "MostraProfesorCompleto";
+            Profesores objProfesor = new Profesores(idProf, parametro, procedimiento);
+            MySqlDataReader reader = objProfesor.MostrarDatosCompletos();
 
             while (reader.Read())
             {
@@ -132,13 +219,13 @@ namespace IES_Admin
                 txtMatricula.Text = reader.GetString(5);
                 switch (reader.GetString(6))
                 {
-                    case "1°":
+                    case "1° ":
                         rdbPrimero.Checked = true;
                         break;
-                    case "2°":
+                    case "2° ":
                         rdbSegundo.Checked = true;
                         break;
-                    case "3°":
+                    case "3° ":
                         rdbTercero.Checked = true;
                         break;
 
@@ -151,25 +238,25 @@ namespace IES_Admin
                 cmbMateria.Text = reader.GetString(7);
                 switch (reader.GetString(8))
                 {
-                    case "1":
+                    case "1° Año":
                         chk1.Checked = true;
                         break;
-                    case "2":
+                    case "2° Año":
                         chk2.Checked = true;
                         break;
-                    case "3":
+                    case "3° Año":
                         chk3.Checked = true;
                         break;
-                    case "4":
+                    case "4° Año":
                         chk4.Checked = true;
                         break;
-                    case "5":
+                    case "5° Año":
                         chk5.Checked = true;
                         break;
-                    case "6":
+                    case "6° Año":
                         chk6.Checked = true;
                         break;
-                    case "7":
+                    case "7° Año":
                         chk7.Checked = true;
                         break;
 

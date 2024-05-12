@@ -27,3 +27,32 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.exe
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CapaPresentacions.exe.config
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CapaPresentacions.exe
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CapaPresentacions.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\es-AR\CapaPresentacions.resources.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CapaNegocios.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CDatos.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\System.Memory.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CConexion2.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\System.Buffers.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CapaNegocios.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CDatos.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CConexion2.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmAdmin.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmAlumno.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmLogin.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmMaterias.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmProfesores.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.Properties.Resources.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmLogin.es-AR.resources
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.GenerateResource.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.CoreCompileInputs.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\es-AR\CapaPresentacions.resources.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.CopyComplete
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.exe
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.pdb

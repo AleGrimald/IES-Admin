@@ -13,3 +13,18 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CDatos.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CConexion2.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\System.Memory.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\System.Buffers.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CDatos.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CConexion2.pdb
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.pdb

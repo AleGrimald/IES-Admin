@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using static Mysqlx.Notice.SessionStateChanged.Types;
 
 namespace IES_Admin
 {
     public partial class frmAlumno : Form
     {
         private string[] listaCarrera = {"Desarrollo de Software", "Tecnicatura en Programacion" };
-        private string procedimiento = "MostrarAlumnos";
 
         public frmAlumno()
         {
@@ -30,7 +30,7 @@ namespace IES_Admin
             
             try
             {
-                Alumno nuevoAlumno = new Alumno();
+                Alumno nuevoAlumno = new Alumno("SELECT idalumno FROM alumno");
                 string nombre = txtNombre.Text;
                 string dni = txtDni.Text;
                 string edad = txtEdad.Text;
@@ -40,7 +40,9 @@ namespace IES_Admin
                 string carrera;
                 DateTime fecha = dtpFecha.Value.Date;
                 string anio;
-                string id;
+                int id;
+                string[] parametro = { "nombre", "dni", "edad", "direccion", "telefono", "legajo", "carrera", "fecha", "anio", "idalumno" };
+
 
                 if (cmbCarrera.SelectedItem != null)
                 {
@@ -51,13 +53,13 @@ namespace IES_Admin
                     carrera = "Sin Especificar";
                 }
 
-                if (nuevoAlumno.IdAlumno() >= 0)
+                if (nuevoAlumno.IdPersona() >= 0)
                 {
-                    id = (dgvAlumnos.Rows[nuevoAlumno.IdAlumno()].Cells["idalumno"].Value).ToString();
+                    id = int.Parse(dgvAlumnos.Rows[nuevoAlumno.IdPersona()].Cells["idalumno"].Value.ToString())+1;
                 }
                 else
                 {
-                    id = "0";
+                    id = 0;
                 }
 
                 if (rdbPrimero.Checked)
@@ -84,7 +86,7 @@ namespace IES_Admin
                 }
                 else
                 {
-                    nuevoAlumno = new Alumno(nombre, dni, edad, direccion, telefono, legajo, carrera, fecha, anio, id);
+                    nuevoAlumno = new Alumno(nombre, dni, edad, direccion, telefono, legajo, carrera, fecha, anio, id, "AgregarAlumno",parametro);
                     nuevoAlumno.AgregarAlumno();
 
                     MessageBox.Show(
@@ -125,7 +127,9 @@ namespace IES_Admin
                 string carrera = cmbCarrera.SelectedItem.ToString();
                 DateTime fecha = dtpFecha.Value.Date;
                 string anio;
-                string id = txtId.Text;
+                int id = int.Parse(txtId.Text);
+                string[] parametro = { "_nombre", "_dni", "_edad", "_direccion", "_telefono", "_legajo", "_carrera", "_fecha", "_anio", "_idalumno" };
+                string procedimiento = "EditarAlumno";
 
                 if (rdbPrimero.Checked)
                 {
@@ -140,7 +144,7 @@ namespace IES_Admin
                     anio = rdbTercero.Text;
                 }
 
-                Alumno editarAlumno = new Alumno(nombre, dni, edad, direccion, telefono, legajo, carrera, fecha, anio, id);
+                Alumno editarAlumno = new Alumno(nombre, dni, edad, direccion, telefono, legajo, carrera, fecha, anio, id, procedimiento, parametro );
                 editarAlumno.EditarAlumno();
 
                 MessageBox.Show(
@@ -173,11 +177,12 @@ namespace IES_Admin
         {
             try
             {
-                Alumno indiceAlumno = new Alumno();
-                string id = (dgvAlumnos.Rows[indiceAlumno.IdAlumno()].Cells["idalumno"].Value).ToString();
-
-                Alumno eliminarAlumno = new Alumno(id);
-                eliminarAlumno.EliminarAlumno();
+                string parametro = "_idalumno";
+                string procedimiento = "EliminarAlumno";
+                Alumno indiceAlumno = new Alumno("SELECT idalumno FROM alumno");
+                int id = int.Parse(dgvAlumnos.Rows[indiceAlumno.IdPersona()].Cells["idalumno"].Value.ToString());
+                indiceAlumno = new Alumno(id, parametro, procedimiento);
+                indiceAlumno.EliminarPersona();
 
                 MessageBox.Show(
                     "Se elimino un alumno con exito!!",
@@ -224,8 +229,9 @@ namespace IES_Admin
 
         private void ListarAlumnos()
         {
-            Alumno datosAlumno = new Alumno();          
-            dgvAlumnos.DataSource = datosAlumno.MostrarAlumno(procedimiento);
+            string procedimiento = "MostrarAlumnos";
+            Alumno datosAlumno = new Alumno(procedimiento);          
+            dgvAlumnos.DataSource = datosAlumno.MostrarAlumno();
             ModelarTabla();
         }
 

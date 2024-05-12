@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CDatosAlumno.cs" />
-    <Compile Include="CDatosProfesor.cs" />
+    <Compile Include="CDatosPersona.cs" />
     <Compile Include="CDatosUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
