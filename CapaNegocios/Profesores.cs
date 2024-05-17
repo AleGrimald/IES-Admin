@@ -1,6 +1,8 @@
 ﻿using IES_Admin;
 using MySql.Data.MySqlClient;
 using System.Data;
+using static Mysqlx.Crud.Order.Types;
+using System.Net;
 
 namespace CapaNegocio
 {
@@ -8,16 +10,12 @@ namespace CapaNegocio
     {
         private string matricula;
         private string modulo;
-        private int id;
         private string materia;
-        private string anio;
         private CDatosPersona objProfesor = new CDatosPersona();
         
         public string Modulo { get => modulo; set => modulo = value; }
         public string Matricula { get => matricula; set => matricula = value; }
-        public int Id { get => id; set => id = value; }
         public string Materia { get => materia; set => materia = value; }
-        public string Anio { get => anio; set => anio = value; }
         public CDatosPersona ObjProfesor { get => objProfesor;}
 
         public Profesores()
@@ -42,7 +40,7 @@ namespace CapaNegocio
             Procedimiento = _procedimiento;
         }
 
-        public Profesores(int _id,string _nombre,string _dni,string _direcc,string _telefono,string _matricula,string _modulosTexto,string _materia,string _anio,string _procedimiento, string[] _parametro)
+        public Profesores(int _id,string _nombre,string _dni,string _direcc,string _telefono,string _matricula,string _modulosTexto,string _materia,string _procedimiento, string[] _parametro)
         {
             Id = _id;
             Nombre = _nombre;
@@ -52,7 +50,6 @@ namespace CapaNegocio
             Matricula = _matricula;
             Modulo = _modulosTexto;
             Materia = _materia;
-            Anio = _anio;
             Procedimiento = _procedimiento;
             Parametro = _parametro;
         }
@@ -70,9 +67,16 @@ namespace CapaNegocio
 
         public void AgregarProfesor()
         {
-            dynamic[] arrDatosProfesor = { Id, Nombre, Dni, Direccion, Telefono, Matricula, Modulo, Materia, Anio };
+            dynamic[] arrDatosProfesor = { Id, Nombre, Dni, Direccion, Telefono, Matricula, Materia, Modulo};
             ObjProfesor.Agregar(arrDatosProfesor, Parametro, Procedimiento);
         }
+
+        public void EditarProfesor()
+        {
+            dynamic[] arrDatosProfesor = { Id, Nombre, Dni, Direccion, Telefono, Matricula, Materia, Modulo };
+            ObjProfesor.Editar(arrDatosProfesor, Parametro, Procedimiento);
+        }
+
 
     }
 }

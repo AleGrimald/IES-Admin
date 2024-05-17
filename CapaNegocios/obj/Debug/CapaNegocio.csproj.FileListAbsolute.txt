@@ -10,7 +10,6 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\bin\Debug\CConexion2.pdb
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
-C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.pdb
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\bin\Debug\CapaNegocios.dll
@@ -28,3 +27,6 @@ C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegoc
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\bin\Debug\MySql.Data.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaNegocios\obj\Debug\CapaNego.81B9D119.Up2Date

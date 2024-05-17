@@ -8,7 +8,6 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\bin\Debug\System.Buffers.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\bin\Debug\CConexion2.pdb
-C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\obj\Debug\CDatos.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\obj\Debug\CDatos.pdb
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CDatos\bin\Debug\CDatos.dll
@@ -24,3 +23,6 @@ C:\Users\Ale Grima\Desktop\Final Programacion 2\CDatos\obj\Debug\CapaDatos.cspro
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CDatos\obj\Debug\CDatos.dll
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CDatos\obj\Debug\CDatos.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\bin\Debug\MySql.Data.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CDatos\obj\Debug\CapaDatos.csproj.Up2Date

@@ -13,7 +13,6 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\bin\Debug\CDatos.pdb
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\bin\Debug\CConexion2.pdb
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.AssemblyReference.cache
-C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.SuggestedBindingRedirects.cache
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmAdmin.resources
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmAlumno.resources
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\IES_Admin.frmLogin.resources
@@ -24,7 +23,6 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.GenerateResource.cache
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.CoreCompileInputs.cache
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\es-AR\CapaPresentacions.resources.dll
-C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.exe
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.pdb
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\bin\Debug\CapaPresentacions.exe.config
@@ -56,3 +54,6 @@ C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\es-A
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.exe
 C:\Users\Ale Grima\Desktop\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPresentacions.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\bin\Debug\MySql.Data.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CapaPresentacions\obj\Debug\CapaPres.49FFA346.Up2Date

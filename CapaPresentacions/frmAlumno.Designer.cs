@@ -39,7 +39,6 @@
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnListar = new System.Windows.Forms.Button();
             this.btnEstadoAcademico = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtId = new System.Windows.Forms.TextBox();
@@ -71,6 +70,7 @@
             // 
             this.txtNombre.Font = new System.Drawing.Font("MS Reference Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(19, 36);
+            this.txtNombre.MaxLength = 60;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(267, 25);
             this.txtNombre.TabIndex = 0;
@@ -80,6 +80,7 @@
             // 
             this.txtDni.Font = new System.Drawing.Font("MS Reference Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.txtDni.Location = new System.Drawing.Point(19, 86);
+            this.txtDni.MaxLength = 10;
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(267, 25);
             this.txtDni.TabIndex = 1;
@@ -89,6 +90,7 @@
             // 
             this.txtDireccion.Font = new System.Drawing.Font("MS Reference Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.txtDireccion.Location = new System.Drawing.Point(19, 186);
+            this.txtDireccion.MaxLength = 60;
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(267, 25);
             this.txtDireccion.TabIndex = 3;
@@ -98,6 +100,7 @@
             // 
             this.txtTelefono.Font = new System.Drawing.Font("MS Reference Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.txtTelefono.Location = new System.Drawing.Point(19, 236);
+            this.txtTelefono.MaxLength = 15;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(267, 25);
             this.txtTelefono.TabIndex = 4;
@@ -107,6 +110,7 @@
             // 
             this.txtLegajo.Font = new System.Drawing.Font("MS Reference Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.txtLegajo.Location = new System.Drawing.Point(17, 37);
+            this.txtLegajo.MaxLength = 5;
             this.txtLegajo.Name = "txtLegajo";
             this.txtLegajo.Size = new System.Drawing.Size(268, 25);
             this.txtLegajo.TabIndex = 5;
@@ -116,6 +120,7 @@
             // 
             this.txtEdad.Font = new System.Drawing.Font("MS Reference Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.txtEdad.Location = new System.Drawing.Point(20, 136);
+            this.txtEdad.MaxLength = 3;
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(266, 25);
             this.txtEdad.TabIndex = 2;
@@ -140,7 +145,7 @@
             this.btnEditar.Enabled = false;
             this.btnEditar.Font = new System.Drawing.Font("MS Reference Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(562, 36);
+            this.btnEditar.Location = new System.Drawing.Point(514, 36);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(130, 86);
             this.btnEditar.TabIndex = 14;
@@ -152,7 +157,7 @@
             this.btnAgregar.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAgregar.Font = new System.Drawing.Font("MS Reference Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
-            this.btnAgregar.Location = new System.Drawing.Point(384, 37);
+            this.btnAgregar.Location = new System.Drawing.Point(288, 37);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(130, 85);
             this.btnAgregar.TabIndex = 13;
@@ -162,7 +167,6 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.SteelBlue;
-            this.groupBox1.Controls.Add(this.btnListar);
             this.groupBox1.Controls.Add(this.btnEstadoAcademico);
             this.groupBox1.Controls.Add(this.btnEliminar);
             this.groupBox1.Controls.Add(this.btnEditar);
@@ -176,22 +180,11 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Panel de Control";
             // 
-            // btnListar
-            // 
-            this.btnListar.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnListar.Image = ((System.Drawing.Image)(resources.GetObject("btnListar.Image")));
-            this.btnListar.Location = new System.Drawing.Point(28, 37);
-            this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(130, 85);
-            this.btnListar.TabIndex = 16;
-            this.btnListar.UseVisualStyleBackColor = false;
-            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
-            // 
             // btnEstadoAcademico
             // 
             this.btnEstadoAcademico.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btnEstadoAcademico.Image = ((System.Drawing.Image)(resources.GetObject("btnEstadoAcademico.Image")));
-            this.btnEstadoAcademico.Location = new System.Drawing.Point(206, 37);
+            this.btnEstadoAcademico.Location = new System.Drawing.Point(62, 37);
             this.btnEstadoAcademico.Name = "btnEstadoAcademico";
             this.btnEstadoAcademico.Size = new System.Drawing.Size(130, 85);
             this.btnEstadoAcademico.TabIndex = 12;
@@ -477,7 +470,6 @@
         private System.Windows.Forms.DataGridView dgvAlumnos;
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.Button btnListar;
         private System.Windows.Forms.Button btnCancelar;
     }
 }

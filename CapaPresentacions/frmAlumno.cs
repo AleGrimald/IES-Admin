@@ -41,7 +41,9 @@ namespace IES_Admin
                 DateTime fecha = dtpFecha.Value.Date;
                 string anio;
                 int id;
-                string[] parametro = { "nombre", "dni", "edad", "direccion", "telefono", "legajo", "carrera", "fecha", "anio", "idalumno" };
+                string[] parametro = { 
+                    "nombre", "dni", "edad", "direccion", "telefono", "legajo", "carrera", "fecha", "anio", "idalumno" 
+                };
 
 
                 if (cmbCarrera.SelectedItem != null)
@@ -59,7 +61,7 @@ namespace IES_Admin
                 }
                 else
                 {
-                    id = 0;
+                    id = 1;
                 }
 
                 if (rdbPrimero.Checked)
@@ -205,12 +207,7 @@ namespace IES_Admin
             }
             
         }
-
-        private void btnListar_Click(object sender, EventArgs e)
-        {
-            ListarAlumnos();
-        }
-       
+        
         private void LimpiarCampos()
         {
             txtNombre.Text = "";
@@ -256,10 +253,18 @@ namespace IES_Admin
             dgvAlumnos.EnableHeadersVisualStyles = false;
             dgvAlumnos.RowHeadersVisible= false;
 
-            for (int i = 0; i < columnasAncho.Length; i++)
+            try
             {
-                dgvAlumnos.Columns[i].Width = columnasAncho[i];
+                for (int i = 0; i < columnasAncho.Length; i++)
+                {
+                    dgvAlumnos.Columns[i].Width = columnasAncho[i];
+                }
             }
+            catch (Exception)
+            {
+
+            }
+            
         }
 
         private void soloLetras_KeyPress(object sender, KeyPressEventArgs e)
@@ -333,13 +338,11 @@ namespace IES_Admin
                 btnEliminar.Enabled = true;
                 btnCancelar.Enabled = true;
                 btnAgregar.Enabled = false;
-                btnListar.Enabled = false;
                 btnEstadoAcademico.Enabled = false;
                 btnEditar.BackColor = Color.Gold;
                 btnEliminar.BackColor = Color.Tomato;
                 btnCancelar.BackColor = Color.Tomato;
                 btnAgregar.BackColor = Color.LightGray;
-                btnListar.BackColor = Color.LightGray;
                 btnEstadoAcademico.BackColor = Color.LightGray;
             }
             else
@@ -348,13 +351,11 @@ namespace IES_Admin
                 btnEditar.Enabled = false;
                 btnCancelar.Enabled = false;
                 btnAgregar.Enabled = true;
-                btnListar.Enabled = true;
                 btnEstadoAcademico.Enabled = true;
                 btnEditar.BackColor = Color.LightGray;
                 btnEliminar.BackColor = Color.LightGray;
                 btnCancelar.BackColor = Color.LightGray;
                 btnAgregar.BackColor = Color.LimeGreen;
-                btnListar.BackColor = Color.DeepSkyBlue;
                 btnEstadoAcademico.BackColor = Color.MediumTurquoise;
             }
         }

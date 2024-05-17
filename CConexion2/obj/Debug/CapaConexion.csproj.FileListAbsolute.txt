@@ -6,6 +6,8 @@ C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\System.Buffers.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaConexion.csproj.AssemblyReference.cache
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
-C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaConexion.csproj.CopyComplete
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CConexion2.dll
 C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CConexion2.pdb
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\MySql.Data.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Ale Grima\Desktop\Tec Programacion\Programacion 2\Final Programacion 2\CConexion2\obj\Debug\CapaCone.C1BD2A79.Up2Date

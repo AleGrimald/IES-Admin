@@ -34,7 +34,7 @@ namespace IES_Admin
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                     );
-                throw;
+                return tabla;
             }
             finally
             {
